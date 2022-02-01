@@ -1,0 +1,21 @@
+
+public class Passeio {
+
+	public static void main(String[] args) {
+
+		
+		Pessoa p1 = new Pessoa();
+		p1.nome = "Valdomiro";
+		
+		p1.cachorro.nome = "Belinha";
+		p1.cachorro.idade = 5;
+		p1.cachorro.raca = "Shitzu";
+		p1.cachorro.sexo = 'F';
+		
+		Caminhada c = new Caminhada();
+		c.andar(p1);
+		
+		
+	}
+
+}

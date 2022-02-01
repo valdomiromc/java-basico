@@ -1,0 +1,21 @@
+
+public class Carro {
+	
+	String fabricante;
+	String modelo;
+	String cor;
+	int anoDeFabricacao;
+
+	int ligarCarro( int carro, int prestacao) {
+		
+		int valor1 = anoDeFabricacao + 1000;
+		int carroQte = carro + 10;
+		int prestacaoValor = prestacao + 20000;
+		int valorTotal = valor1 + carroQte + prestacaoValor;
+		
+		return valorTotal;
+		
+	}
+	
+}
+

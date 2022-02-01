@@ -1,0 +1,8 @@
+
+public class Cachorro {
+
+	Integer idade;
+	String raca;
+	char sexo;
+	String nome;
+}

@@ -1,0 +1,19 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Carro meuCarro = new Carro();
+		
+		meuCarro.anoDeFabricacao = 1986;
+		
+		Carro seuCarro = new Carro();
+		
+		System.out.println(meuCarro.anoDeFabricacao);
+		seuCarro.anoDeFabricacao = 202;
+		
+		System.out.println(seuCarro.anoDeFabricacao);
+		
+		
+	}
+
+}

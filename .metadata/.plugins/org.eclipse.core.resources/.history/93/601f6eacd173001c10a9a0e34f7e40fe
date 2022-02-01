@@ -1,0 +1,26 @@
+package com.algarworks.listas;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Exemplo1{
+	
+	public static void main (String[] args) {
+		
+		List<String> nomes = new ArrayList<>();
+		nomes.add("José");
+		nomes.add("Maria");
+		nomes.add("João");
+		
+//		nomes.remove("João");
+//		System.out.println(nomes);
+//		
+		
+		for (int i = 0; i < nomes.size(); i++) {
+			
+			System.err.println("nome: " + nomes);
+		}
+		
+	}
+	
+}

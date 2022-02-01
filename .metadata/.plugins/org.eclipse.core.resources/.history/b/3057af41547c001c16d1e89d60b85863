@@ -1,0 +1,11 @@
+
+public class Caminhada {
+
+	void andar (Pessoa pessoa) {
+		
+		System.out.println("Eu \"" + pessoa.nome + "\"" 
+				+ " estou andando com o \"" + pessoa.cachorro.nome + "\"" + "que tem " + pessoa.cachorro.idade + " da raça " + pessoa.cachorro.raca + "e do sexo " + pessoa.cachorro.sexo);
+		
+	}
+	
+}

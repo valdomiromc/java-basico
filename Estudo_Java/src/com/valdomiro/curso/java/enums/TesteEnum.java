@@ -1,4 +1,4 @@
-package com.valdomiro.curso.java.enums;
+ package com.valdomiro.curso.java.enums;
 
 public class TesteEnum {
 

@@ -1,4 +1,4 @@
-package com.valdomiro.curso.financeiro;
+package com.valdomiro.curso.desafioherancaesobreposicao;
 
 public class TesteFinanceiro {
 	public static void main(String[] args) {

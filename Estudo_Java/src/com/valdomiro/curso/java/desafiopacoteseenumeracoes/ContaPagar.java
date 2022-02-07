@@ -1,4 +1,4 @@
-package com.valdomiro.curso.java.desafiocontapagar;
+package com.valdomiro.curso.java.desafiopacoteseenumeracoes;
 
 public class ContaPagar {
 	private String descricao;

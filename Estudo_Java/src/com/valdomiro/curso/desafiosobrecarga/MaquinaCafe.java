@@ -3,7 +3,7 @@ package com.valdomiro.curso.desafiosobrecarga;
 public class MaquinaCafe {
 
 	int acucarDisponivel;
-	
+
 	void fazerCafe() {
 		fazerCafe(10);
 	}
@@ -16,5 +16,5 @@ public class MaquinaCafe {
 			System.out.println("Fazendo cafezinho com " + quantidadeAcucar + " gramas de açucar.");
 		}
 	}
-	
+
 }

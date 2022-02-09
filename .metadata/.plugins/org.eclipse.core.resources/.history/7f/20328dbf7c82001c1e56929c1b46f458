@@ -1,9 +1,0 @@
-package com.valdomiro.curso.java;
-
-public class Pessoa {
-
-	String nome;
-	Cachorro cachorro;
-	
-	
-}

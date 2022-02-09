@@ -15,28 +15,25 @@ public class TestePolimosfismo {
 		contaCorrente.setSaldo(3500);
 
 		imprimirSaldo(contaCorrente);
-		
+
 		// Conta Poupanca
 
 		Conta contaPoupanca = new ContaPoupanca();
 		contaPoupanca.setSaldo(2000);
 		imprimirSaldo(contaPoupanca);
-		
+
 	}
-	
-	
-	
 
 	public static void imprimirSaldo(Conta conta) {
 		System.out.println("Saldo da conta : " + conta.getSaldo());
-		
+
 		// Operador InstanceOf
-		
-		if(conta instanceof ContaCorrente) {
-			ContaCorrente cc = (ContaCorrente)conta;
+
+		if (conta instanceof ContaCorrente) {
+			ContaCorrente cc = (ContaCorrente) conta;
 			System.out.println("limite da conta corrente " + cc.getLimite());
 		}
-		if(conta instanceof ContaPoupanca) {
+		if (conta instanceof ContaPoupanca) {
 			ContaPoupanca cp = (ContaPoupanca) conta;
 			System.out.println("Rendimento da conta é: " + cp.getRendimento());
 		}

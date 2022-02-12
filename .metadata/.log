@@ -2121,3 +2121,165 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-11 20:10:40.545
 !MESSAGE executing callback sts4.classpath.FneEsLGI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:06:32.935
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FneEsLGI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:06:32.937
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.FneEsLGI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:06:32.937
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:06:32.938
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FneEsLGI => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:07:14.476
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:07:14.477
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@21499295[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=564)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:07:14.478
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:07:22.321
+!MESSAGE Boot LS startup time from start to initialized: 7841ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:07:22.576
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.FstYAfJgisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:07:22.577
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:07:22.577
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:07:22.579
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:07:22.579
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:07:22.580
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.FstYAfJg => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:07:22.581
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:07:22.582
+!MESSAGE buffering callback sts4.classpath.FstYAfJg Estudo_Java false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:07:22.583
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:07:22.584
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:07:22.585
+!MESSAGE buffering callback sts4.classpath.FstYAfJg exemlo-interfaces false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:07:22.586
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:07:22.587
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:07:22.588
+!MESSAGE buffering callback sts4.classpath.FstYAfJg listas-collection false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:07:22.589
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:07:22.639
+!MESSAGE classpath=97 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:07:22.646
+!MESSAGE buffering callback sts4.classpath.FstYAfJg logistica-api false 97
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:07:22.647
+!MESSAGE executing callback sts4.classpath.FstYAfJg 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:07:23.636
+!MESSAGE executing callback sts4.classpath.FstYAfJg SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:16:39.012
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FstYAfJg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:16:39.013
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.FstYAfJg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:16:39.014
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:16:39.014
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FstYAfJg => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:17:07.635
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:17:07.636
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@21499295[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=564)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:17:07.636
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:17:14.196
+!MESSAGE Boot LS startup time from start to initialized: 6559ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:17:14.523
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.TOzBQSObisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:17:14.523
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:17:14.524
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:17:14.525
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:17:14.525
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:17:14.526
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.TOzBQSOb => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:17:14.527
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:17:14.528
+!MESSAGE buffering callback sts4.classpath.TOzBQSOb Estudo_Java false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:17:14.528
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:17:14.530
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:17:14.530
+!MESSAGE buffering callback sts4.classpath.TOzBQSOb exemlo-interfaces false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:17:14.531
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:17:14.533
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:17:14.568
+!MESSAGE buffering callback sts4.classpath.TOzBQSOb listas-collection false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:17:14.569
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:17:14.580
+!MESSAGE classpath=97 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:17:14.589
+!MESSAGE buffering callback sts4.classpath.TOzBQSOb logistica-api false 97
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:17:14.590
+!MESSAGE executing callback sts4.classpath.TOzBQSOb 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-12 08:17:15.532
+!MESSAGE executing callback sts4.classpath.TOzBQSOb SUCCESS [done]

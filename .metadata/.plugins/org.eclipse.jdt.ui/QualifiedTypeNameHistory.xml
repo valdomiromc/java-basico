@@ -24,4 +24,19 @@
     <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.valdomiro.curso.heranca.Pessoa"/>
+    <fullyQualifiedTypeName name="com.valdomiro.curso.heranca.Jogador"/>
+    <fullyQualifiedTypeName name="com.valdomiro.curso.financeiro.SituacaoConta"/>
+    <fullyQualifiedTypeName name="com.valdomiro.curso.financeiro.Fornecedor"/>
+    <fullyQualifiedTypeName name="com.valdomiro.curso.sobrecarga.CadastroPessoa"/>
+    <fullyQualifiedTypeName name="com.valdomiro.curso.sobrecarga.Pessoa"/>
+    <fullyQualifiedTypeName name="com.valdomiro.curso.polimorfismo.TestePolimosfismo"/>
+    <fullyQualifiedTypeName name="com.valdomiro.curso.polimorfismo.ContaCorrente"/>
+    <fullyQualifiedTypeName name="com.valdomiro.curso.polimorfismo.ContaPoupanca"/>
+    <fullyQualifiedTypeName name="com.valdomiro.curso.abstrata.ProdutoPerecivel"/>
+    <fullyQualifiedTypeName name="com.valdomiro.curso.pagamento.Autorizavel"/>
+    <fullyQualifiedTypeName name="com.valdomiro.curso.impressao.Imprimivel"/>
+    <fullyQualifiedTypeName name="com.valdomiro.curso.pagamento.Cartao"/>
+    <fullyQualifiedTypeName name="com.valdomiro.curso.caixa.Checkout"/>
+    <fullyQualifiedTypeName name="com.valdomiro.curso.impressao.Impressora"/>
 </qualifiedTypeNameHistroy>

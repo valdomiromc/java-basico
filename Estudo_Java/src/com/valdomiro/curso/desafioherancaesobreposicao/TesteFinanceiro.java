@@ -34,12 +34,22 @@ public class TesteFinanceiro {
 		ContaReceber contaReceber2 = new ContaReceber(telecom, "Manutenção em sistema de conta online", 53200d,
 				"13/05/2012");
 
-		// pagamento e cancelamento de contas a pagar
-		contaPagar1.pagar();
-		contaPagar2.cancelar();
+		
 
-		// recebimento e cancelamento de contas a receber
-		contaReceber1.receber();
-		contaReceber2.cancelar();
+		
+		try {
+			// pagamento e cancelamento de contas a pagar
+			contaPagar1.pagar();
+			contaPagar2.cancelar();
+			// recebimento e cancelamento de contas a receber
+			contaReceber1.receber();
+			contaReceber2.cancelar();
+		} catch (OperacaoContaException e) {
+			System.out.println("Operação inválida: "+e.getMessage());
+		}
+			finally {
+				System.out.println("Obrigado por utilizar nosso sistema!");
+		}
+		
 	}
 }

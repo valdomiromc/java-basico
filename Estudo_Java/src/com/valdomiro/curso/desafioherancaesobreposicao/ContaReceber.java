@@ -13,9 +13,9 @@ private Cliente cliente;
 		this.cliente = cliente;
 	}
 	
-	public void receber() {
+	public void receber() throws OperacaoContaException {
 		if (SituacaoConta.PAGA.equals(this.getSituacaoConta())) {
-			System.out.println("Não pode receber uma conta que já está paga: " 
+			throw new OperacaoContaException("Não pode receber uma conta que já está paga: " 
 				+ this.getDescricao());
 		} else if (SituacaoConta.CANCELADA.equals(this.getSituacaoConta())) {
 			System.out.println("Não pode receber uma conta que está cancelada: " 
@@ -31,9 +31,9 @@ private Cliente cliente;
 	}
 	
 	@Override
-	public void cancelar() {
+	public void cancelar() throws OperacaoContaException {
 		if(getValor() > 50000) {
-			System.out.println("Não é permitido o cancelamento de conta acima de R$ 50.000,00 .");
+			throw new OperacaoContaException("Não é permitido o cancelamento de conta acima de R$ 50.000,00 .");
 		}else {
 			super.cancelar();
 		}

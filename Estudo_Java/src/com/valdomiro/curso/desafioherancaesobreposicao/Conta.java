@@ -18,11 +18,11 @@ public abstract class Conta {
 		this.dataVencimento = dataVencimento;
 	}
 	
-	public void cancelar() {
+	public void cancelar() throws OperacaoContaException {
 		if(SituacaoConta.PAGA.equals(this.getSituacaoConta())) {
-			System.out.println("Não pode cancelar uma conta que já foi paga: "+ this.getSituacaoConta() + " .");
+			throw new OperacaoContaException("Não pode cancelar uma conta que já foi paga: "+ this.getSituacaoConta() + " .");
 		}else if(SituacaoConta.CANCELADA.equals(this.getSituacaoConta())) {
-			System.out.println("Não pode cancelar uma conta que já foi cancelada : "+ this.getSituacaoConta() + ".");
+			throw new OperacaoContaException("Não pode cancelar uma conta que já foi cancelada : "+ this.getSituacaoConta() + ".");
 		}else {
 			situacaoConta = SituacaoConta.CANCELADA;
 			System.out.println("Cancelando a conta "+ this.getDescricao() + " .");

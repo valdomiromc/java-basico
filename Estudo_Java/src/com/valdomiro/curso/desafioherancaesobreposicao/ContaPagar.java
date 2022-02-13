@@ -15,11 +15,11 @@ public class ContaPagar extends Conta {
 
 	private Fornecedor fornecedor;
 	
-	public void pagar() {
+	public void pagar() throws OperacaoContaException {
 		if(SituacaoConta.PAGA.equals(this.getSituacaoConta())) {
-			System.out.println("Não pode pagar uma conta que já foi paga: "+ this.getSituacaoConta() );
+			throw new OperacaoContaException("Não pode pagar uma conta que já foi paga: "+ this.getSituacaoConta() );
 		}else if(SituacaoConta.CANCELADA.equals(this.getSituacaoConta())) {
-			System.out.println("Não pode pagar uma conta que já foi cancelada: "+ this.getSituacaoConta());
+			throw new OperacaoContaException("Não pode pagar uma conta que já foi cancelada: "+ this.getSituacaoConta());
 		}else {
 			System.out.println("Pagando a conta: " + this.getDescricao() + " com o valor de: R$" + this.getValor() + " , data de vencimento: " + this.getDataVencimento()
 			+ " e o nome do fornecedor é: " + this.getFornecedor().getNome());	

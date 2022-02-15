@@ -15,9 +15,9 @@ public class Jogos {
 		deletarNumeroRepetido.clear();
 		guardarNumero.clear();
 
-		while (deletarNumeroRepetido.size() < 6000) {
+		while (deletarNumeroRepetido.size() <50) {
 			
-			numeroAleatorios = (int) (Math.round(Math.random() * 59) + 01);
+			numeroAleatorios = (int) (Math.round(Math.random() *99) + 01);
 			
 			if (deletarNumeroRepetido.contains(numeroAleatorios) == false) {
 				

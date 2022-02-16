@@ -39,4 +39,6 @@
     <fullyQualifiedTypeName name="com.valdomiro.curso.pagamento.Cartao"/>
     <fullyQualifiedTypeName name="com.valdomiro.curso.caixa.Checkout"/>
     <fullyQualifiedTypeName name="com.valdomiro.curso.impressao.Impressora"/>
+    <fullyQualifiedTypeName name="com.valdomiro.curso.xmlbasico.modelo.Produto"/>
+    <fullyQualifiedTypeName name="com.valdomiro.curso.jsonbasico.modelo.Cliente"/>
 </qualifiedTypeNameHistroy>

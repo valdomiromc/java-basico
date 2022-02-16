@@ -1,0 +1,28 @@
+Passo a passo para fazer funcionar o banco de dados MYSQL
+
+Realizar o download do connector Java 8.0.28 no site : https://dev.mysql.com/downloads/connector/j/?os=26
+
+Colocar o arquivo descompactado na Pasta Lib dentro do projeto, caso não tenha, criar a pasta lib.
+
+Caso estiver usando o Spring Tool Suite ou Eclipse, clicar no arquivo que você descompactou na pasta lib com o botão direito e clicar em Build Path
+
+No Mysql criar o Schema cadastro_cliente  e criar uma tabela simples de cliente, exemplo o código abaixo para copiar e colar:
+
+create table cliente (
+codigo int not null auto_increment primary key,
+nome varchar(100)
+)
+
+
+Na classe JdbcDAOFactory configurar o servidor local MYSQL:
+
+public JdbcDAOFactory() {
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			this.connection = DriverManager.getConnection("jdbc:mysql://localhost/cadastro_cliente"
+					, "seuservidor", "suasenha");
+		} catch (Exception e) {
+			throw new RuntimeException("Erro recuperando conexão com o banco", e);
+		}
+	}
+

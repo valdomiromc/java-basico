@@ -6,5 +6,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="src/com/valdomiro/curso/xmlbasico/lib/xstream-1.4.19.jar"/>
+	<classpathentry kind="lib" path="src/com/valdomiro/curso/jsonbasico/lib/gson-2.8.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -41,4 +41,11 @@
     <fullyQualifiedTypeName name="com.valdomiro.curso.impressao.Impressora"/>
     <fullyQualifiedTypeName name="com.valdomiro.curso.xmlbasico.modelo.Produto"/>
     <fullyQualifiedTypeName name="com.valdomiro.curso.jsonbasico.modelo.Cliente"/>
+    <fullyQualifiedTypeName name="java.util.logging.Logger"/>
+    <fullyQualifiedTypeName name="com.valdomiro.curso.logging.model.Cliente"/>
+    <fullyQualifiedTypeName name="com.valdomiro.curso.logging.dao.ClienteDAO"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.core.Logger"/>
+    <fullyQualifiedTypeName name="org.apache.log4j.BasicConfigurator"/>
+    <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
 </qualifiedTypeNameHistroy>

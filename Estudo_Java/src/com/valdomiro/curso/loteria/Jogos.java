@@ -1,4 +1,4 @@
-package com.valdomiro.curso.desafioclassemath;
+package com.valdomiro.curso.loteria;
 
 import java.util.ArrayList;
 
@@ -17,7 +17,7 @@ public class Jogos {
 
 		while (deletarNumeroRepetido.size() <6) {
 			
-			numeroAleatorios = (int) (Math.round(Math.random() *59) + 01);
+			numeroAleatorios = (int) (Math.round(Math.random() *49) + 01);
 			
 			if (deletarNumeroRepetido.contains(numeroAleatorios) == false) {
 				

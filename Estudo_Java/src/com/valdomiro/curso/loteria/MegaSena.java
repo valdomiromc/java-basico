@@ -1,4 +1,4 @@
-package com.valdomiro.curso.desafioclassemath;
+package com.valdomiro.curso.loteria;
 
 import java.util.Scanner;
 

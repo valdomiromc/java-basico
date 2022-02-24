@@ -1,4 +1,4 @@
-package com.algarworks.listas;
+package com.valdomiro.curso.listas;
 
 import java.util.ArrayList;
 import java.util.List;

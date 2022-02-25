@@ -48,4 +48,11 @@
     <fullyQualifiedTypeName name="org.apache.log4j.BasicConfigurator"/>
     <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
     <fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
+    <fullyQualifiedTypeName name="com.valdomiro.curso.lambda.modelo.Fatura"/>
+    <fullyQualifiedTypeName name="com.valdomiro.curso.lambda.util.EnviadorEmail"/>
+    <fullyQualifiedTypeName name="com.valdomiro.curso.referenciametodos.dao.FaturaDAO"/>
+    <fullyQualifiedTypeName name="com.valdomiro.curso.referenciametodos.modelo.Fatura"/>
+    <fullyQualifiedTypeName name="com.valdomiro.curso.stream.dao.FaturaDAO"/>
+    <fullyQualifiedTypeName name="com.valdomiro.curso.stream.modelo.Fatura"/>
+    <fullyQualifiedTypeName name="com.valdomiro.curso.apidedata.model.Cliente"/>
 </qualifiedTypeNameHistroy>

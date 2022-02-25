@@ -1,0 +1,4 @@
+Arroz;3;9,8;
+Feijão;2;6,3;
+Extrato de tomate;1;3,25;
+Óleo de Soja;2;4;

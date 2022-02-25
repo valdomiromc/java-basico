@@ -7,7 +7,7 @@ public class BuscaPeloCodigo {
 	public static void main(String[] args) {
 		ClienteDAO clienteDAO = DAOFactory.getDAOFactory().getClienteDAO();
 		
-		Cliente cliente = clienteDAO.buscarPeloCodigo(3L);
+		Cliente cliente = clienteDAO.buscarPeloCodigo(6L);
 		
 		if (cliente != null) {
 			System.out.println("------ Cliente encontrado ------");

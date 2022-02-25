@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-        <listEntry value="/listas-collection/src/com/algarworks/listas/Exemplo1.java"/>
+        <listEntry value="/Estudo_Java/src/com/valdomiro/curso/listas/Exemplo1.java"/>
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="1"/>
@@ -10,7 +10,7 @@
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_SHOW_CODEDETAILS_IN_EXCEPTION_MESSAGES" value="true"/>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="false"/>
-    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.algarworks.listas.Exemplo1"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.valdomiro.curso.listas.Exemplo1"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="listas-collection"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="listas-collection"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Estudo_Java"/>
 </launchConfiguration>

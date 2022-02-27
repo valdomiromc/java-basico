@@ -1,5 +1,5 @@
-GitRepositoriesView.GitDirectories=C\:\\Users\\valdo\\OneDrive\\Documentos\\GitHub\\java-basico\\.git;C\:\\Users\\valdo\\Documents\\spring\\.git;C\:\\Users\\valdo\\Documents\\spring\\Curso_Algar_Works\\.git;
-GitRepositoriesView.GitDirectories.relative=C\:\\Users\\valdo\\OneDrive\\Documentos\\GitHub\\java-basico\\.git;.git;Curso_Algar_Works\\.git;
-RepositorySearchDialogSearchPath=C\:\\Users\\valdo\\Documents\\spring\\Curso_Algar_Works
+GitRepositoriesView.GitDirectories=C\:\\Users\\valdo\\OneDrive\\Documentos\\GitHub\\java-basico\\.git;C\:\\Users\\valdo\\Documents\\spring\\.git;C\:\\Users\\valdo\\Documents\\Git_AlgarWorks\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\Users\\valdo\\OneDrive\\Documentos\\GitHub\\java-basico\\.git;.git;C\:\\Users\\valdo\\Documents\\Git_AlgarWorks\\.git;
+RepositorySearchDialogSearchPath=C\:\\Users\\valdo\\Documents\\Git_AlgarWorks
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

@@ -1,2 +1,2 @@
 # java-basico
-Treinamento e execercícios básicos de java
+Treinamento e exercícios básicos de java
